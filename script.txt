@@ -1,0 +1,2 @@
+CREATE USER 'user_1'@'localhost' IDENTIFIED BY 'pass_1';
+GRANT ALL PRIVILEGES ON train_db.* to 'user_1'@'localhost';

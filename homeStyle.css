@@ -1,0 +1,91 @@
+/* homeStyle.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body with a background color */
+body {
+    background-color: #f0f0f0; /* Light Gray */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+.head {
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.5s; /* Smooth background color transition */
+}
+
+.head h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.head:hover {
+    background-color: #333; /* Red */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498db; /* Blue */
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color change on hover */
+}
+
+/* Add a hover effect for links */
+nav a:hover {
+    color: red; /* Red */
+}
+
+/* Style the train image */
+.train_image {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    max-height: 472px;
+    border: 3px solid #3498db; /* Blue border */
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #888888; /* Drop shadow */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Dark Gray */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add a simple animation to the header */
+.head {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
